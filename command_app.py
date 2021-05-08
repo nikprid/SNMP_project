@@ -5,7 +5,7 @@ iterator = getCmd(
     CommunityData('public', mpModel=1),
     UdpTransportTarget(('127.0.0.1', 1234)),
     ContextData(),
-    ObjectType(ObjectIdentity('1.3.6.1.2.1.1.2.0'))
+    ObjectType(ObjectIdentity('1.3.6.1.2.1.1.1.0'))
 )
 
 for errorIndication, errorStatus, errorIndex, varBinds in iterator:
